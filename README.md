@@ -4,6 +4,6 @@ This is an ASCII Generator script written by @YigitDev11. All the dependendencie
 2 - "uv sync" or "pip install ."
 3 - "uv run main.py" or "python main.py"
 
-If you are using uv you can use uv commands but if you are not using uv you can use pip commands instead. It does not effect the tool's runtime.
+If you are using uv you can use uv commands but if you are not using uv you can use pip commands instead. It does not affect the tool's runtime.
 
 Thank you for using our tool!
