@@ -1,0 +1,23 @@
+[project]
+name = "ascii-generator"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "YigitDev11", email = "ahmetyigitkucukdere@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "datetime",
+    "pillow>=12.3.0",
+]
+
+[project.scripts]
+ascii-generator = "ascii_generator:main"
+
+[build-system]
+requires = ["uv_build>=0.12.9,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.uv]
+package = false
